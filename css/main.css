@@ -1,0 +1,49 @@
+body {
+    background-color: #000;
+    color: #18F018;
+    font-family: 'Monospace';
+    font-size: 13px;
+}
+a {
+    text-decoration: none;
+    color: #7D26CD;
+}
+.title {
+    font-size:8px;
+    font-family: 'Monospace';
+}
+.shell {
+    background-color: #000;
+    color: #18F018;
+    border: 0px;
+    outline: none;
+    width: 240px;
+    padding: 0px;
+    margin-top: -4px;
+    font-family: 'Monospace';
+    font-size: 13px;
+}
+.note {
+    color: red;
+}
+.carriage {
+    position: relative;
+    z-index: -9999999;
+    visibility: hidden;
+}
+.consoleresponse {
+    padding: 0px;
+    margin: 0px;
+}
+.oldshell {
+    padding-top: 7px;
+}
+.passwordcontainer {
+    display: none;
+}
+.consolecontent {
+    display: none; 
+}
+.consoleboot {
+
+}
